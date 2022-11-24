@@ -2,7 +2,7 @@
 
 import unittest
 
-from code import *
+from Prog import *
 
 class Test(unittest.TestCase):
     def test_addition(self):
