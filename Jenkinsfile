@@ -14,14 +14,8 @@ pipeline {
         }
         stage('Pass Testcases') {
             steps {
-                sh "chmod u+x Pass.py"
-                sh "./Pass.py"
-            }
-        }
-        stage('Fail Testcases') {
-            steps {
-                sh "chmod u+x Fail.py"
-                sh "./Fail.py"
+                sh "chmod u+x Test.py"
+                sh "./Test.py"
             }
         }
     }
